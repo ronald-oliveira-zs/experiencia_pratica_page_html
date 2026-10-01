@@ -1,0 +1,61 @@
+/* ==========================================================================
+   ESTILOS ESPECÍFICOS - PROJETOS.HTML
+   ========================================================================== */
+
+/* Cards/Artigos de Projetos e Campanhas */
+article {
+  background-color: var(--light-bg);
+  border-left: 4px solid var(--primary-color);
+  padding: 1.2rem;
+  margin-bottom: 1.2rem;
+  border-radius: 0 var(--radius) var(--radius) 0;
+}
+
+article h3 {
+  font-size: 1.25rem;
+  color: var(--text-color);
+  margin-bottom: 0.5rem;
+}
+
+/* Subtítulos de Seção */
+#voluntariado h3,
+#doacoes h3 {
+  font-size: 1.2rem;
+  color: var(--primary-color);
+  margin-top: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+/* Listas de participação e contribuição */
+ul {
+  margin-left: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+li {
+  margin-bottom: 0.4rem;
+}
+
+/* Chamada para Participação */
+#participacao {
+  text-align: center;
+  background-color: #fffbe3;
+  border: 1px solid #fce38a;
+}
+
+#participacao a {
+  display: inline-block;
+  background-color: var(--primary-color);
+  color: var(--white);
+  padding: 0.8rem 2rem;
+  border-radius: var(--radius);
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.1rem;
+  margin-top: 0.5rem;
+  transition: background-color 0.3s ease;
+}
+
+#participacao a:hover {
+  background-color: var(--primary-hover);
+}

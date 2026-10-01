@@ -1,0 +1,45 @@
+/* ==========================================================================
+   ESTILOS ESPECÍFICOS - INDEX.HTML (PÁGINA INICIAL)
+   ========================================================================== */
+
+/* Imagem da Apresentação */
+#apresentacao img {
+  max-width: 100%;
+  height: auto;
+  border-radius: var(--radius);
+  margin: 1.5rem 0;
+  box-shadow: var(--shadow);
+  display: block;
+}
+
+/* Bloco de Atuação */
+#atuacao {
+  background-color: #f0fdf4;
+  border-left: 5px solid var(--primary-color);
+}
+
+#atuacao a {
+  display: inline-block;
+  background-color: var(--primary-color);
+  color: var(--white);
+  padding: 0.75rem 1.5rem;
+  border-radius: var(--radius);
+  text-decoration: none;
+  font-weight: bold;
+  margin-top: 0.5rem;
+  transition: background-color 0.3s ease;
+}
+
+#atuacao a:hover {
+  background-color: var(--primary-hover);
+}
+
+/* Bloco de Contato */
+#contato address {
+  font-style: normal;
+  line-height: 2;
+  background: var(--light-bg);
+  padding: 1.2rem;
+  border-radius: var(--radius);
+  border: 1px solid var(--border-color);
+}
